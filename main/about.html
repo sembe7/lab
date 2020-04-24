@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type = "text/css" href="../design/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
+	<title>Мэдээний сайт</title>
+	<script type="text/javascript">
+		function togglemenu(){
+			document.getElementById('sidebar').classList.toggle('active');
+		}
+	</script>
+
+</head>
+<body>
+	<div id="sidebar">
+		
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="news.html">News</a></li>
+		  <li><a href="video.html">video</a></li>
+		  <li><a href="about.html">About</a></li>
+		</ul>
+
+	</div>
+	<div class="main">
+		<div class="menu-primary">
+			
+
+			<input type="checkbox" id="check" name="">
+			<label for="" class="checkbtn" onclick="togglemenu()">
+				<i class="fas fa-bars"></i>
+			</label>
+			<div class="container">
+				<img src="../images/logo.svg">
+			</div>
+		</div>
+
+		<div class="menu-secondary">
+			<div class="container">
+				<nav id="menu">
+					
+						<ul>
+						  <li><a href="index.html">Нүүр</a></li>
+						  <li><a href="news.html">Мэдээ</a></li>
+						  <li><a href="video.html">Бичлэг</a></li>
+						  <li><a href="about.html">Тухай</a></li>
+						</ul>
+					
+				</nav>
+				<!-- <ul>
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#news">News</a></li>
+				  <li><a href="#video">video</a></li>
+				  <li><a href="#about">About</a></li>
+				</ul> -->
+			</div>
+		</div>
+		<div class="main-body">
+		
+			<div class="container">
+				<h3 class="typography">Бидний тухай</h3><br>
+				<div class="about">
+					<h2 style="text-align: center;">CSS Box model,<p style="font-family: Times New Roman,Times,serif " > Background image</p></h2>
+					<img src="../images/gallery/3.jpg" style="width: 30%" alt="Klematis">
+					<div>box size 1200px, padding 5 px, 5px border, image size 100%</div>
+				<!-- <ul>
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#news">News</a></li>
+				  <li><a href="#video">video</a></li>
+				  <li><a href="#about">About</a></li>
+				</ul> -->
+			</div>
+			</div>
+
+
+		</div>
+	</div>
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p><img width="50px" src="../images/facebook.svg">
+  <img width="50px" src="../images/download.png">
+</div>
+</body>
+
+</html>
